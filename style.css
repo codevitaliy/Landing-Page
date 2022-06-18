@@ -1,0 +1,156 @@
+
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+   
+
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 170px;
+}
+
+.list, a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 15px;
+    color: #FFF;
+
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sign-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    color: white;
+    margin: 30px;
+    gap: 5px;
+       
+}
+
+.gym-one {
+    max-width: 280px;
+    border-radius: 20px;
+}
+ 
+
+.center-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 
+}
+
+.text {
+    margin-top: 10px;
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.img-direction, .size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  max-width: 150px;
+  margin-left: 10px;  
+}
+
+.size {
+    border-radius: 25px;
+}
+
+.subtext {
+    text-align: center;
+    margin: 10px;
+    color:#183152;
+    font-style: oblique;
+    
+
+}
+
+
+.center-bottom {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 30px;
+  
+ 
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #183152;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.logo {
+    border-radius: 30px;
+    max-width: 60px;
+    margin-top: 5px;
+}
+
+
+.header-text {
+    font-size: 30px;
+    font-weight: 900;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
