@@ -50,6 +50,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 20px;
 }
 
 .sign-text {
@@ -73,6 +74,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  margin: 20px;
+  min-height: 250px;
 }
 
 .text {
@@ -107,12 +110,14 @@ body {
 
 .center-bottom {
   background-color: #E5E7EB;
-  padding: 80px ;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 10px;
-
+  flex: 1;
+  min-height: 200px;
+  
 }
 
 .quote { 
@@ -121,11 +126,12 @@ body {
     font-style: italic;
     color: #1F2937;
     font-weight: 300;
-    margin-left: 50px;
+   
 }
 
 .quotee {
-    margin-left: 550px;
+    margin-left: 500px;
+    font-weight: bold;
 }
 
 
@@ -133,8 +139,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
     flex: 1;
+    margin: 40px;
+    max-height: 150px;
+    
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    padding: 15px 60px;
+    border-radius: 8px;
+    color: white;
 }
 
 .footer {
@@ -154,12 +172,20 @@ body {
     margin-top: 5px;
 }
 
+.call {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.button-one {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    padding: 5px 15px;
+}
 
-
-
-
-
+.
 
 
 
