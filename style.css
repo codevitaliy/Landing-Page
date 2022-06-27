@@ -24,6 +24,13 @@ body {
     gap: 170px;
 }
 
+.header-text {
+    font-size: 30px;
+    font-weight: 900;
+  
+  }
+
+
 .list, a {
     display: flex;
     list-style: none;
@@ -51,7 +58,7 @@ body {
     max-width: 350px;
     color: white;
     margin: 30px;
-    gap: 5px;
+    gap: 6px;
        
 }
 
@@ -66,7 +73,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  flex-shrink: 
 }
 
 .text {
@@ -100,15 +106,28 @@ body {
 
 
 .center-bottom {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: flex-start;
-  align-items: center;
   background-color: #E5E7EB;
-  padding: 30px;
-  
- 
+  padding: 80px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
 }
+
+.quote { 
+    max-width: 720px;
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+.quotee {
+    margin-left: 550px;
+}
+
 
 .sign-up {
     display: flex;
@@ -136,11 +155,6 @@ body {
 }
 
 
-.header-text {
-    font-size: 30px;
-    font-weight: 900;
-  
-  }
 
 
 
